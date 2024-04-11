@@ -7,10 +7,10 @@ def encode(string):
     return new_string
 
 def decode(string):
-    new_string = ""
+    newString = ""
     for char in string:
-        new_string += f"{int(char) - 3}"
-    return new_string
+        newString += (str(int(char) - 3))
+    return newString
 
 def main():
     loop = True
